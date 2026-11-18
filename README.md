@@ -10,10 +10,9 @@ Run from the repository's top folder:
 ```sh
 javac FileSystem.java PrintTextFiles.java
 java PrintTextFiles | tee output.txt
-wc -l output.txt
 ```
 
-The last command counts output lines. Open `output.txt` to find the first and last paths.
+Record the first two and last two paths from `output.txt`. Estimate the total number of paths printed.
 
 | API call | Result |
 |---|---|
