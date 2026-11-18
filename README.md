@@ -7,10 +7,16 @@ Keep the five supplied API methods unchanged. No arrays are needed in your metho
 
 ## Open and run
 
-Use a private copy of this starter in `Monarch-High-School`.
-Name it `recursion-warmup-YOUR-GITHUB-USERNAME`.
-Keep an existing copy and its commits if you already have one.
-Open that copy in Codespaces or clone it into VS Code.
+Open this starter on GitHub. Select **Use this template**, then **Open in a codespace**.
+Codespaces opens a browser editor with your own copy of the starter files.
+Open `PrintTextFiles.java` in the file list. Change only the body of `printTextFiles`.
+Save the file before you run it.
+
+This warmup does not require a new GitHub repository, a commit, a push, or a code upload.
+You can also use an existing local clone or the starter ZIP with VS Code.
+Keep any existing repository and its commits.
+
+GitHub documents this route in [Creating a codespace from a template](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-from-a-template).
 
 Open a terminal in the repository's top folder.
 
@@ -57,7 +63,7 @@ It prints no folder paths and no non-text files. The empty folder produces no ou
 It prints file names with their paths, rather than file contents.
 Compare the result with your partner pseudocode.
 
-## Explain and save
+## Handout evidence
 
 Identify the Big 4 in your method:
 
@@ -66,6 +72,11 @@ Identify the Big 4 in your method:
 3. A base case stops the calls.
 4. Each call waits for the next call, then finishes its own work.
 
-Explain where the current call continues after a subfolder call returns.
-Save, test, commit, and push your change to your own repository.
-Open the pushed commit on GitHub and show Archer its link.
+After running your program, complete Section 4 of the class handout:
+
+1. Record the number of .txt paths printed, plus the first and last paths in your actual output.
+2. Copy your recursive call. Explain why the calls eventually stop.
+3. State which file music/ visits after the old/ call returns.
+
+Submit the paper handout only. No code upload, commit, push, or repository link is required.
+Save your work in the Codespace before you close it.
